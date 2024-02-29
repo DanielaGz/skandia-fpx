@@ -1,0 +1,57 @@
+.container{
+    position: relative; 
+}
+
+.header{
+    display: flex;
+    color: white;
+    padding-left: 7rem;
+    padding-top: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header > p{
+    margin-left: 0.5rem;
+}
+
+.title{
+    margin: 1rem;
+}
+
+.card{
+    margin-left: calc(50% - ((37rem/2)));
+    background-color: white;
+    width: 36rem;
+    height: 15rem;
+    border-radius: 0.3rem;
+    padding: 2rem;
+    font-family: 'Montserrat';
+    background-image: url('../../../../assets/images/mount.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 10rem;
+    box-shadow: 0px 0px 6px #00000029;
+}
+
+.align-start{
+    align-items: start;
+}
+
+.header-card >p , .header-card >h3  {
+    margin: unset;
+    font-weight: bolder;
+}
+
+.card-item{
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.badge{
+    width: 10rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    font-weight: 900;
+}

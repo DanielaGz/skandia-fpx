@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --green-base: #00C83C;
+    --green-ligth: #95DBB7;
+    --gray: #E2E2E2;
+    --blue-ligth: #A5D7E1;
+    --orange-light: #FECD72;
+    --orange-base: #FE9200;
+
+}
+
+body{
+    margin: 0px;
+    color: #363636;
+}
+
+
+.monserrat{
+    font-family: 'Montserrat';
+}
+
+.verdana{
+    font-family: Verdana;
+}
+
+.bg-green-ligth{
+    background-color: var(--green-ligth);
+}
+
+.bg-blue-ligth{
+    background-color: var(--blue-ligth);
+}
+
+.bg-orange-ligth{
+    background-color: var(--orange-light);
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.items-around {
+    justify-content: space-around;
+}
+
+.items-between {
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.t-green-base{
+    color: var(--green-base);
+}
+
+.t-white{
+    color: white;
+}
+
+.t-orange-base{
+    color: var(--orange-base);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.t-14{
+    font-size: 14px;
+}
+
+.t-19{
+    font-size: 19px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.m-0{
+    margin: unset;
+}

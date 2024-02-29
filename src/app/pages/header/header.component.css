@@ -1,0 +1,64 @@
+.container {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    opacity: 1;
+    position: sticky;
+}
+
+.logo {
+    width: 119px;
+}
+
+.icon {
+    width: 24px;
+}
+
+.question-logo {
+    width: 6rem; /* Ancho inicial */
+    padding: 0.5rem; /* Espaciado inicial */
+    transition: width 0.3s ease-in-out, padding 0.3s ease-in-out; /* Transición suave */
+}
+
+.question-logo > p {
+    display: none;
+    transition: margin 0.3s ease-in-out; /* Transición suave para el margen */
+}
+
+.question-logo:hover > p {
+    display: block;
+    margin: 0px 10px; /* Margen al hacer hover */
+    transition: margin 0.3s ease-in-out;
+}
+
+.question-logo:hover {
+    width: 6rem; /* Ancho al hacer hover */
+    padding: 0rem; /* Espaciado al hacer hover */
+}
+
+.question-logo > img {
+    width: 32px; /* Ancho inicial de la imagen */
+    transition: width 0.3s ease-in-out; /* Transición suave para la imagen */
+}
+
+.question-logo:hover > img {
+    width: 20px; /* Ancho de la imagen al hacer hover */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 15px;
+    padding: 10px;
+    align-items: center;
+}
+  
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.fit-text{
+    margin-bottom: 0.7rem;
+}

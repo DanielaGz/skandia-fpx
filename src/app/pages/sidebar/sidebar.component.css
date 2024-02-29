@@ -1,0 +1,45 @@
+.sidebar {
+    height: 100vh;
+    width: 50px;
+    cursor: pointer;
+    background-color: var(--gray);
+    font-family: 'Montserrat';
+    transition: width 0.8s ease; /* Transición para el cambio de ancho */
+    z-index: 2;
+    position: absolute;
+}
+
+.sidebar .item-menu {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .item-menu > img {
+    width: 1rem;
+    display: none;
+    padding: 1rem;
+    transition: display 0.8s ease; /* Transición para la visualización de la imagen */
+}
+
+.sidebar .item-menu > p {
+    display: none;
+    transition: display 0.8s ease; /* Transición para la visualización del texto */
+}
+
+.selected {
+    color: white;
+    background-color: var(--green-base);
+}
+
+.selected > img {
+    display: block !important;
+}
+
+.sidebar.open {
+    width: 260px;
+}
+
+.sidebar.open .item-menu > p,
+.sidebar.open .item-menu > img {
+    display: block !important;
+}

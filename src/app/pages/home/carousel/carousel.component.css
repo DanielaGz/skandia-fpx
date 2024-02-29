@@ -1,0 +1,16 @@
+.header{
+    margin-top: 3rem;
+}
+
+.badge{
+    justify-content: center;
+}
+
+.carrousel{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    padding: 30px;
+}

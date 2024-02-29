@@ -1,0 +1,17 @@
+.container{
+    margin-left: 50px;
+    background-image: url('../../../assets/images/Group 3329.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed; 
+    background-size: 100%;
+    height: 100vh;
+}
+
+.banner{
+    background: linear-gradient(to bottom, #164a50, #175c63, #497478);
+    background-size: 100% 20rem;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
