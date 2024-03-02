@@ -1,0 +1,47 @@
+/* Estilos para la tarjeta */
+.card {
+    /* Ancho */
+    width: 20rem;
+    /* Altura */
+    height: 90%;
+    /* Sombra */
+    box-shadow: 0px 0px 6px #00000029;
+    /* Margen izquierdo */
+    margin-left: 1rem;
+    /* Color de fondo */
+    background-color: white;
+    /* Radio de borde */
+    border-radius: 0.3rem;
+    /* Relleno */
+    padding: 1rem;
+    /* Borde inferior */
+    border-bottom: 0.4rem solid var(--orange);
+    /* Imagen de fondo */
+    background-image: url('../../../../../assets/images/productos_recomendados.png');
+}
+
+/* Estilos para el botón */
+.button {
+    /* Relleno */
+    padding: 10px;
+    /* Radio de borde */
+    border-radius: 25px;
+    /* Color de fondo */
+    background-color: var(--green-base);
+    /* Sin borde */
+    border: unset;
+    /* Cursor */
+    cursor: pointer;
+    /* Peso de la fuente */
+    font-weight: bold;
+    /* Tamaño de fuente */
+    font-size: 16px;
+    /* Posición absoluta */
+    position: absolute;
+    /* Color de texto */
+    color: white;
+    /* Posición superior */
+    top: 35%;
+    /* Subrayado */
+    text-decoration: underline;
+}

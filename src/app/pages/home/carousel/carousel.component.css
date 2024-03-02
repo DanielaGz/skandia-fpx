@@ -1,16 +1,72 @@
-.header{
-    margin-top: 3rem;
+/* Estilo para el encabezado */
+.header {
+    margin-top: 3rem; /* Margen superior de 3 unidades */
 }
 
-.badge{
-    justify-content: center;
+/* Estilo para el contenedor de las insignias */
+.badge {
+    justify-content: center; /* Centra el contenido horizontalmente */
 }
 
-.carrousel{
-    display: flex;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    border-radius: 0.3rem;
-    overflow: hidden;
-    padding: 30px;
+/* Estilo para el carrusel */
+.carrousel {
+    display: flex; /* Utiliza un diseño flexible */
+    padding-left: 5rem; /* Añade relleno a la izquierda */
+    padding-right: 5rem; /* Añade relleno a la derecha */
+    border-radius: 0.3rem; /* Borde redondeado */
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    position: relative; /* Posicionamiento relativo */
+    padding-top: 3rem; /* Añade relleno arriba */
+}
+
+/* Estilo para los botones de control del carrusel */
+.button {
+    position: absolute; /* Posicionamiento absoluto */
+    display: inline-block; /* Se comporta como un bloque en línea */
+    width: 50px; /* Ancho de 50 píxeles */
+    height: 50px; /* Alto de 50 píxeles */
+    border-radius: 50%; /* Borde circular */
+    border: unset; /* Sin borde */
+    background-color: var(--green-base); /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    line-height: 50px; /* Altura de línea */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor de apuntador */
+}
+
+/* Estilo para el botón deshabilitado */
+.button:disabled {
+    background-color: var(--gray) !important; /* Color de fondo gris (importante para anular otros estilos) */
+    cursor: not-allowed; /* Cursor no permitido */
+}
+
+/* Estilo para el botón de navegación hacia atrás */
+.prev {
+    top: 50%; /* Coloca el botón en la mitad superior */
+    left: 2rem; /* Coloca el botón 2 unidades a la izquierda */
+}
+
+/* Estilo para el botón de navegación hacia adelante */
+.next {
+    top: 50%; /* Coloca el botón en la mitad superior */
+    right: 2rem; /* Coloca el botón 2 unidades a la derecha */
+}
+
+/* Estilo para el contenedor de los botones de asociados */
+.associate-button-container {
+    padding: 3rem; /* Añade relleno */
+    display: flex; /* Utiliza un diseño flexible */
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilo para los botones de asociados */
+.associate-button {
+    padding: 15px; /* Añade relleno */
+    border-radius: 25px; /* Borde redondeado */
+    background-color: var(--gray); /* Color de fondo gris */
+    border: unset; /* Sin borde */
+    cursor: pointer; /* Cursor de apuntador */
+    font-weight: bold; /* Peso de la fuente */
+    font-size: 16px; /* Tamaño de fuente */
 }

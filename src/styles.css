@@ -1,46 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+/* Definición de variables de color */
 :root {
-    --green-base: #00C83C;
-    --green-ligth: #95DBB7;
-    --gray: #E2E2E2;
-    --blue-ligth: #A5D7E1;
-    --orange-light: #FECD72;
-    --orange-base: #FE9200;
-
+    --green-base: #00C83C; /* Verde base */
+    --green-ligth: #95DBB7; /* Verde claro */
+    --green: #A4D071; /* Verde */
+    --gray: #E2E2E2; /* Gris */
+    --blue-ligth: #A5D7E1; /* Azul claro */
+    --blue-dark: #63AABC; /* Azul oscuro */
+    --orange-light: #FECD72; /* Naranja claro */
+    --orange-base: #FE9200; /* Naranja base */
+    --orange: #FF9460; /* Naranja */
+    --gray-light: #EDEDED; /* Gris claro */
 }
 
-body{
+/* Estilos generales del cuerpo del documento */
+body {
     margin: 0px;
-    color: #363636;
+    color: #363636; /* Color de texto predeterminado */
 }
 
-
-.monserrat{
+/* Estilos de fuente Montserrat */
+.monserrat {
     font-family: 'Montserrat';
 }
 
-.verdana{
+/* Estilos de fuente Montserrat de tamaño 18 */
+.m-18 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; 
+    letter-spacing: 0;
+    line-height: 23px; 
+}
+
+/* Estilos de fuente Verdana de tamaño 12 */
+.v-12 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px; 
+    letter-spacing: 0;
+    line-height: 18px; 
+}
+
+/* Estilos de fuente Verdana */
+.verdana {
     font-family: Verdana;
 }
 
-.bg-green-ligth{
+/* Estilos de fondo verde claro */
+.bg-green-ligth {
     background-color: var(--green-ligth);
 }
 
-.bg-blue-ligth{
+/* Estilos de fondo azul claro */
+.bg-blue-ligth {
     background-color: var(--blue-ligth);
 }
 
-.bg-orange-ligth{
+/* Estilos de fondo naranja claro */
+.bg-orange-ligth {
     background-color: var(--orange-light);
 }
 
-
-
+/* Estilos de flexbox */
 .flex {
     display: flex;
 }
 
+/* Estilos de distribución espaciada */
 .items-around {
     justify-content: space-around;
 }
@@ -49,38 +73,52 @@ body{
     justify-content: space-between;
 }
 
-.bold{
+/* Estilos de fuente en negrita */
+.bold {
     font-weight: bold;
 }
 
-.t-green-base{
+/* Estilos de fuente en mediano */
+.medium {
+    font-weight: medium;
+}
+
+/* Estilos de texto color verde base */
+.t-green-base {
     color: var(--green-base);
 }
 
-.t-white{
+/* Estilos de texto color blanco */
+.t-white {
     color: white;
 }
 
-.t-orange-base{
+/* Estilos de texto color naranja base */
+.t-orange-base {
     color: var(--orange-base);
 }
 
+/* Estilos de subrayado de texto */
 .underline {
     text-decoration: underline;
 }
 
-.t-14{
+/* Estilos de fuente de tamaño 14 */
+.t-14 {
     font-size: 14px;
 }
 
-.t-19{
+/* Estilos de fuente de tamaño 19 */
+.t-19 {
     font-size: 19px;
 }
 
-.text-center{
+/* Estilos de alineación de texto al centro */
+.text-center {
     text-align: center;
 }
 
-.m-0{
+/* Estilos de margen cero */
+.m-0 {
     margin: unset;
 }

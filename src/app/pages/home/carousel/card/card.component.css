@@ -1,16 +1,19 @@
-.card{
-    width: 30rem;
-    height: 30px;
+/* Estilos para la tarjeta */
+.card {
+    /* Ancho */
+    width: 20rem;
+    /* Altura ajustada al contenido */
+    height: fit-content;
+    /* Sombra */
     box-shadow: 0px 0px 6px #00000029;
+    /* Margen izquierdo */
     margin-left: 1rem;
+    /* Color de fondo */
     background-color: white;
+    /* Radio de borde */
     border-radius: 0.3rem;
-}
-
-.next{
-    transform: translateX(-31rem);
-}
-
-.previous{
-    transform: translateX(31rem);
+    /* Relleno */
+    padding: 1rem;
+    /* Color de fondo */
+    background-color: white;
 }

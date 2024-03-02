@@ -1,0 +1,49 @@
+/* Estilos para el contenedor principal */
+.container {
+    /* Altura del contenedor */
+    height: 500px;
+    /* Color de fondo */
+    background-color: #e2eff9;
+    /* Repetición de fondo */
+    background-repeat: no-repeat;
+    /* Tamaño del fondo */
+    background-size: cover;
+    /* Posición relativa */
+    position: relative;
+}
+
+/* Estilos para el banner */
+.banner {
+    /* Margen superior */
+    margin-top: 20px;
+    /* Color de fondo */
+    background-color: var(--orange);
+    /* Relleno */
+    padding: 0.2rem;
+    /* Color de texto */
+    color: white;
+    /* Borde redondeado */
+    border-radius: 5px;
+}
+
+/* Estilos para el grupo */
+.group {
+    /* Posición absoluta */
+    position: absolute;
+    /* Izquierda */
+    left: 10%;
+}
+
+/* Estilos para el texto */
+.text {
+    /* Posición absoluta */
+    position: absolute;
+    /* Superior */
+    top: 30%;
+    /* Izquierda */
+    left: 20%;
+    /* Tamaño de fuente */
+    font-size: 25px;
+    /* Ancho */
+    width: 20%;
+}
