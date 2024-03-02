@@ -1,27 +1,59 @@
-# SkandiaFpx
+# SkandiaFPX
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+Este es el repositorio para Skandia en Angular. Aquí encontrarás información sobre cómo ejecutar, probar y contribuir al proyecto.
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Skandia es una aplicación web que pretende cumplir con el diseño propuesto en https://xd.adobe.com/view/7520751b-2b53-4b0f-9613-527817e8cc92-2073/specs/. Está diseñada para proporcionar una interfaz fácil de usar y atractiva para los usuarios finales.
 
-## Code scaffolding
+## Requisitos Previos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-## Build
+- Node.js y npm
+- Angular CLI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalación
 
-## Running unit tests
+1. Clona este repositorio en tu máquina local:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   git clone https://github.com/tu-usuario/mi-aplicacion-angular.git
 
-## Running end-to-end tests
+Claro, aquí tienes un ejemplo básico de un archivo README.md para una aplicación Angular:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+markdown
 
-## Further help
+# Mi Aplicación Angular
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este es el repositorio para mi aplicación Angular. Aquí encontrarás información sobre cómo ejecutar, probar y contribuir al proyecto.
+
+## Descripción
+
+Mi Aplicación Angular es una aplicación web que permite a los usuarios hacer X, Y, y Z. Está diseñada para proporcionar una interfaz fácil de usar y atractiva para los usuarios finales.
+
+## Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+
+- Node.js y npm
+- Angular CLI
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+
+   git clone https://github.com/tu-usuario/mi-aplicacion-angular.git
+
+## Uso
+
+Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
+
+    ng serve
+
+## Pruebas
+
+Para ejecutar las pruebas unitarias, puedes usar el siguiente comando:
+
+    ng test
+
+
