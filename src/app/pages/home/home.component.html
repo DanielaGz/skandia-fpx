@@ -1,6 +1,8 @@
 <div class="container">
     <div class="banner">
         <app-objective></app-objective>
-        <app-carousel></app-carousel>
+        <app-carousel (open)="openSection()"></app-carousel>
+        <app-recommended-products *ngIf="open"></app-recommended-products>
+        <app-footer></app-footer>
     </div>
 </div>

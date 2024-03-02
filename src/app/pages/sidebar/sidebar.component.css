@@ -1,45 +1,65 @@
+/* Estilos para el sidebar */
 .sidebar {
-    height: 100vh;
-    width: 50px;
-    cursor: pointer;
-    background-color: var(--gray);
-    font-family: 'Montserrat';
+    /* Dimensiones y apariencia */
+    height: 100%; /* Altura completa */
+    width: 50px; /* Ancho inicial */
+    cursor: pointer; /* Cursor de puntero */
+    background-color: var(--gray); /* Color de fondo */
+    font-family: 'Montserrat'; /* Fuente */
+    /* Transición */
     transition: width 0.8s ease; /* Transición para el cambio de ancho */
-    z-index: 2;
-    position: absolute;
+    /* Posicionamiento */
+    z-index: 2; /* Índice de apilamiento */
+    position: absolute; /* Posicionamiento absoluto */
 }
 
+/* Estilos para los elementos del menú */
 .sidebar .item-menu {
+    /* Alineación vertical */
     display: flex;
     align-items: center;
 }
 
+/* Estilos para las imágenes dentro de los elementos del menú */
 .sidebar .item-menu > img {
-    width: 1rem;
-    display: none;
-    padding: 1rem;
-    transition: display 0.8s ease; /* Transición para la visualización de la imagen */
+    /* Tamaño y apariencia */
+    width: 1rem; /* Ancho */
+    display: none; /* Oculto inicialmente */
+    padding: 1rem; /* Espaciado */
+    /* Transición */
+    transition: display 0.8s ease; /* Transición de visualización */
 }
 
+/* Estilos para los textos dentro de los elementos del menú */
 .sidebar .item-menu > p {
+    /* Oculto inicialmente */
     display: none;
-    transition: display 0.8s ease; /* Transición para la visualización del texto */
+    /* Transición */
+    transition: display 0.8s ease; 
 }
 
+/* Estilos para los elementos del menú seleccionados */
 .selected {
-    color: white;
-    background-color: var(--green-base);
+    /* Apariencia */
+    color: white; /* Color de texto */
+    background-color: var(--green-base); /* Color de fondo */
 }
 
+/* Estilos para las imágenes dentro de los elementos del menú seleccionados */
 .selected > img {
+    /* Mostrar la imagen */
     display: block !important;
 }
 
+/* Estilos para el sidebar cuando está abierto */
 .sidebar.open {
+    /* Ancho expandido */
     width: 260px;
 }
 
+/* Estilos para los elementos del menú dentro del sidebar abierto */
 .sidebar.open .item-menu > p,
 .sidebar.open .item-menu > img {
+    /* Mostrar los elementos del menú */
     display: block !important;
 }

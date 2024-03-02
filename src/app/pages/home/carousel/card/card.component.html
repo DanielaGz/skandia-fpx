@@ -1,3 +1,22 @@
-<div class="card" [style.transform]="'translateX(-31rem)'">
-asdasdasdasdas
+<div class="card" [style]="'border-bottom: 0.4rem solid var('+this.selectedColor+');'">
+    <div class="checkbox-container">
+        <input type="checkbox" name="" id="">
+    </div>
+    <section class="information">
+        <div>
+            <p class="bold m-18">{{product?.nameProduct}}</p>
+            <p class="m-18">#{{product?.numberProduct}}</p>
+        </div>
+        <hr>
+        <div>
+            <p class="bold m-18">Ya cuentas con:</p>
+            <p class="t-green-base m-18">${{product?.balanceProduct}}</p>
+        </div>
+    </section>
+    <section>
+        <div class="message">
+            <img class="icon-message" [src]="'../../../../../'+selectedIcon" alt="">
+            <p class="v-12">{{product?.detaildProduct}}</p>
+        </div>
+    </section>
 </div>

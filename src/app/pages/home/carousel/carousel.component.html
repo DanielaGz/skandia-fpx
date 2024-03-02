@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="products">
     <section class="header text-center monserrat">
         <h3 class="bold">
             ¡Vamos por esos <span class="t-orange-base">$600.000.000</span> para <span class="t-orange-base">Conocer mi sobrino</span>!
@@ -14,13 +14,16 @@
         </div>
     </section>
     <section class="carrousel">
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
+        <app-card 
+        *ngFor="let product of products"
+        [product]="product"
+        [style]="'transform: translateX('+transform+'rem);'"></app-card>
+        <app-custom-card (open)="openSection()" [style]="'transform: translateX('+transform+'rem);'"></app-custom-card>
+        <button [disabled]="disabledPrev" class="button prev" (click)="prevSlide()"><</button>
+        <button [disabled]="disabledNext" class="button next" (click)="nextSlide()">></button>
+    </section>
 
-        <button class="prev" (click)="prevSlide()">Anterior</button>
-        <button class="next" (click)="nextSlide()">Siguiente</button>
+    <section class="associate-button-container">
+        <button class="associate-button monserrat">ASOCIAR OBJETIVO</button>
     </section>
 </div>

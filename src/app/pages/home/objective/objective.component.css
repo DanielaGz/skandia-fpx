@@ -1,57 +1,97 @@
-.container{
+/* Estilos para el contenedor */
+.container {
+    /* Posición relativa */
     position: relative; 
 }
 
-.header{
+/* Estilos para el encabezado */
+.header {
+    /* Display flex */
     display: flex;
+    /* Color de texto */
     color: white;
+    /* Relleno izquierdo */
     padding-left: 7rem;
+    /* Relleno superior */
     padding-top: 1rem;
+    /* Subrayado */
     text-decoration: underline;
+    /* Peso de la fuente */
     font-weight: bold;
 }
 
-.header > p{
+/* Estilos para los elementos de párrafo dentro del encabezado */
+.header > p {
+    /* Margen izquierdo */
     margin-left: 0.5rem;
 }
 
-.title{
+/* Estilos para el título */
+.title {
+    /* Margen */
     margin: 1rem;
 }
 
-.card{
+/* Estilos para la tarjeta */
+.card {
+    /* Margen izquierdo */
     margin-left: calc(50% - ((37rem/2)));
+    /* Color de fondo */
     background-color: white;
+    /* Ancho */
     width: 36rem;
+    /* Alto */
     height: 15rem;
+    /* Radio de borde */
     border-radius: 0.3rem;
+    /* Relleno */
     padding: 2rem;
+    /* Fuente */
     font-family: 'Montserrat';
+    /* Imagen de fondo */
     background-image: url('../../../../assets/images/mount.png');
+    /* No repetir */
     background-repeat: no-repeat;
+    /* Posición de fondo */
     background-position: right bottom;
+    /* Tamaño de fondo */
     background-size: 10rem;
+    /* Sombra */
     box-shadow: 0px 0px 6px #00000029;
 }
 
-.align-start{
+/* Estilos para alinear al inicio */
+.align-start {
+    /* Alinear elementos */
     align-items: start;
 }
 
-.header-card >p , .header-card >h3  {
+/* Estilos para los elementos de párrafo y encabezado dentro de la tarjeta */
+.header-card > p, .header-card > h3  {
+    /* Margen */
     margin: unset;
+    /* Peso de la fuente */
     font-weight: bolder;
 }
 
-.card-item{
+/* Estilos para los elementos de la tarjeta */
+.card-item {
+    /* Margen superior */
     margin-top: 1rem;
+    /* Alineación de texto */
     text-align: center;
+    /* Margen inferior */
     margin-bottom: 2rem;
 }
 
-.badge{
+/* Estilos para la etiqueta */
+.badge {
+    /* Ancho */
     width: 10rem;
+    /* Relleno */
     padding: 0.2rem;
+    /* Radio de borde */
     border-radius: 0.3rem;
+    /* Peso de la fuente */
     font-weight: 900;
 }

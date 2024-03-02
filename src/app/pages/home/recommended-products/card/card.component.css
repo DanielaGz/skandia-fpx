@@ -1,0 +1,19 @@
+/* Estilos para la tarjeta */
+.card {
+    /* Color de fondo */
+    background-color: white;
+    /* Posición absoluta */
+    position: absolute;
+    /* Ancho */
+    width: 22rem;
+    /* Superior */
+    top: 10%;
+    /* Derecha */
+    right: 20%;
+}
+
+/* Estilos para el contenedor de texto */
+.text-container {
+    /* Relleno */
+    padding: 1rem;
+}

@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
 /**
- * El componente HeaderComponent representa el encabezado de la aplicación.
- * Este componente se utiliza para mostrar el encabezado de la página.
+ * El componente FooterComponent representa el pie de página de la aplicación.
+ * Este componente se utiliza para mostrar el pie de página de la página.
  */
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class FooterComponent implements OnInit {
 
   /**
-   * Constructor del componente HeaderComponent.
+   * Constructor del componente FooterComponent.
    * Este constructor se utiliza para inicializar cualquier dependencia necesaria.
    */
   constructor() { }

@@ -1,16 +1,109 @@
-.header{
+/* Estilos para el encabezado */
+.header {
+    /* Margen superior */
     margin-top: 3rem;
 }
 
-.badge{
+/* Estilos para la etiqueta */
+.badge {
+    /* Justificar contenido */
     justify-content: center;
 }
 
-.carrousel{
+/* Estilos para el carrusel */
+.carousel {
+    /* Display flex */
     display: flex;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* Relleno izquierdo */
+    padding-left: 5rem;
+    /* Relleno derecho */
+    padding-right: 5rem;
+    /* Radio de borde */
     border-radius: 0.3rem;
+    /* Ocultar desbordamiento */
     overflow: hidden;
-    padding: 30px;
+    /* Posición relativa */
+    position: relative;
+    /* Relleno superior */
+    padding-top: 3rem;
+}
+
+/* Estilos para el botón */
+.button {
+    /* Posición absoluta */
+    position: absolute;
+    /* Mostrar en línea */
+    display: inline-block;
+    /* Ancho */
+    width: 50px;
+    /* Alto */
+    height: 50px;
+    /* Radio de borde */
+    border-radius: 50%;
+    /* Sin borde */
+    border: unset;
+    /* Color de fondo */
+    background-color: var(--green-base);
+    /* Color de texto */
+    color: white;
+    /* Alineación de texto */
+    text-align: center;
+    /* Altura de línea */
+    line-height: 50px;
+    /* Tamaño de fuente */
+    font-size: 16px;
+    /* Cursor */
+    cursor: pointer; 
+}
+
+/* Estilos para el botón deshabilitado */
+.button:disabled {
+    /* Color de fondo */
+    background-color: var(--gray) !important;
+    /* Cursor no disponible */
+    cursor: not-allowed;
+}
+
+/* Estilos para el botón anterior */
+.prev {
+    /* Posición superior */
+    top: 50%;
+    /* Izquierda */
+    left: 2rem;
+}
+
+/* Estilos para el botón siguiente */
+.next {
+    /* Posición superior */
+    top: 50%;
+    /* Derecha */
+    right: 2rem;
+}
+
+/* Estilos para el contenedor del botón de asociación */
+.associate-button-container {
+    /* Relleno */
+    padding: 3rem;
+    /* Display flex */
+    display: flex;
+    /* Justificar contenido al centro */
+    justify-content: center;
+}
+
+/* Estilos para el botón de asociación */
+.associate-button {
+    /* Relleno */
+    padding: 15px;
+    /* Radio de borde */
+    border-radius: 25px;
+    /* Color de fondo */
+    background-color: var(--gray);
+    /* Sin borde */
+    border: unset;
+    /* Cursor */
+    cursor: pointer;
+    /* Peso de la fuente */
+    font-weight: bold;
+    /* Tamaño de fuente */
+    font-size: 16px;
 }

@@ -1,0 +1,27 @@
+/* Estilos para el contenedor */
+.container {
+    /* Fondo blanco */
+    background-color: white;
+    /* Relleno superior */
+    padding-top: 3rem;
+    /* Relleno izquierdo */
+    padding-left: 8rem;
+    /* Relleno inferior */
+    padding-bottom: 3rem;
+    /* Relleno derecho */
+    padding-right: 8rem;
+}
+
+/* Estilos para el contenedor de la cuadrícula */
+.grid-container {
+    /* Mostrar como cuadrícula */
+    display: grid;
+    /* Columnas automáticas */
+    grid-template-columns: auto auto 14rem;
+    /* Espaciado entre elementos */
+    grid-gap: 15px;
+    /* Relleno */
+    padding: 10px;
+    /* Alineación de elementos */
+    align-items: center;
+}

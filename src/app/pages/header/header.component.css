@@ -1,64 +1,103 @@
+/* Estilos para el contenedor */
 .container {
+    /* Fondo blanco */
     background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* Sombra */
     box-shadow: 0px 0px 6px #00000029;
+    /* Opacidad */
     opacity: 1;
+    /* Posición pegajosa */
     position: sticky;
 }
 
+/* Estilos para el logotipo */
 .logo {
+    /* Ancho */
     width: 119px;
 }
 
+/* Estilos para los iconos */
 .icon {
+    /* Ancho */
     width: 24px;
 }
 
+/* Estilos para el logotipo de pregunta */
 .question-logo {
-    width: 6rem; /* Ancho inicial */
-    padding: 0.5rem; /* Espaciado inicial */
-    transition: width 0.3s ease-in-out, padding 0.3s ease-in-out; /* Transición suave */
+    /* Ancho inicial */
+    width: 6rem;
+    /* Espaciado inicial */
+    padding: 0.5rem;
+    /* Transición suave */
+    transition: width 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 
+/* Estilos para el texto del logotipo de pregunta */
 .question-logo > p {
+    /* Ocultar por defecto */
     display: none;
-    transition: margin 0.3s ease-in-out; /* Transición suave para el margen */
-}
-
-.question-logo:hover > p {
-    display: block;
-    margin: 0px 10px; /* Margen al hacer hover */
+    /* Transición suave para el margen */
     transition: margin 0.3s ease-in-out;
 }
 
+/* Mostrar el texto del logotipo de pregunta al hacer hover */
+.question-logo:hover > p {
+    /* Mostrar */
+    display: block;
+    /* Margen al hacer hover */
+    margin: 0px 10px;
+    /* Transición suave */
+    transition: margin 0.3s ease-in-out;
+}
+
+/* Cambiar tamaño del logotipo de pregunta al hacer hover */
 .question-logo:hover {
-    width: 6rem; /* Ancho al hacer hover */
-    padding: 0rem; /* Espaciado al hacer hover */
+    /* Ancho al hacer hover */
+    width: 6rem;
+    /* Espaciado al hacer hover */
+    padding: 0rem;
 }
 
+/* Cambiar tamaño de la imagen del logotipo de pregunta al hacer hover */
 .question-logo > img {
-    width: 32px; /* Ancho inicial de la imagen */
-    transition: width 0.3s ease-in-out; /* Transición suave para la imagen */
+    /* Ancho inicial de la imagen */
+    width: 32px;
+    /* Transición suave para la imagen */
+    transition: width 0.3s ease-in-out;
 }
 
+/* Cambiar tamaño de la imagen del logotipo de pregunta al hacer hover */
 .question-logo:hover > img {
-    width: 20px; /* Ancho de la imagen al hacer hover */
+    /* Ancho de la imagen al hacer hover */
+    width: 20px;
 }
 
-
+/* Estilos para el contenedor de la cuadrícula */
 .grid-container {
+    /* Mostrar como cuadrícula */
     display: grid;
+    /* Columnas automáticas */
     grid-template-columns: auto auto auto auto auto;
+    /* Espaciado entre elementos */
     grid-gap: 15px;
+    /* Relleno */
     padding: 10px;
+    /* Alineación de elementos */
     align-items: center;
 }
-  
+
+/* Estilos para los elementos de la cuadrícula */
 .grid-container > div {
+    /* Centrar texto */
     text-align: center;
+    /* Relleno */
     padding: 20px 0;
+    /* Tamaño de fuente */
     font-size: 18px;
 }
 
-.fit-text{
+/* Estilos para texto ajustado */
+.fit-text {
+    /* Margen inferior */
     margin-bottom: 0.7rem;
 }
